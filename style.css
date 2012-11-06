@@ -1,0 +1,82 @@
+    	/* html {
+    		background-image: url("file:///C:/Users/Saad%20Farooq/Downloads/saad_photo/areej and me.jpg");
+    		background-position: right;
+    		background-repeat: no-repeat;
+    	} */
+     	
+    	img.bg {
+    		position: absolute;
+    		width: 100%;
+    		top: 0;
+    		left: 0;
+    	
+    	}
+    	
+    	.floating {
+    		width: 500px;
+    		position: relative;		
+    		border:2px solid;
+			border-radius:5px;
+			-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+			background-color: #000000;
+/* 			box-shadow: 10px 10px 5px #888888; */
+			float: right;
+/* 			margin-top: 50 px; */
+/* 			margin-left: 80px; */
+/* 			margin-right: 750px; */
+/* 			margin-right: 100 px; */
+/* 			-moz-margin-right: 100px; */
+			padding: 10px;
+			/* Fallback for web browsers that doesn't support RGBa */
+			background: rgb(0, 0, 0);
+			/* RGBa with 0.6 opacity */
+			background: rgba(0, 0, 0, 0.6);
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+			/* For IE 8*/
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+
+    	}
+    	
+    	h1, h2, p {
+    		color: white;
+    	}
+    	
+	  	body { 
+     		overflow: hidden;
+    		padding: 50px; 
+     	} 
+    	
+    	h1 {
+    		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    		font-style: oblique;
+    		font-weight: bold;
+    		font-size: xx-large;
+    		text-align: center;
+    	}
+    	
+    	h2 {
+    		
+    		font-size: large;
+    		text-align: center;
+    	}
+    	
+    	p {
+    		font-family: "Trebuchet MS", Helvetica, sans-serif;
+    		font-size: medium;
+    	}
+    	
+    	.socialicon {
+    		padding: 5px;
+    	}
+    	
+    	.links {
+    		margin-top: 10px;
+    	}
+    	
+    	.fb-like {
+    		padding: 5px;
+    	}
+    	
+    	
+    	
+    </style>
