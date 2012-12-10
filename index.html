@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> -->
-<!-- <!-- The HTML 4.01 Transitional DOCTYPE declaration-->
--->
-<!-- above set at the top of the file will set -->
-<!-- the browser's rendering engine into -->
-<!-- "Quirks Mode". Replacing this declaration -->
-<!-- with a "Standards Mode" doctype is supported, -->
-<!-- but may lead to some differences in layout. -->
 <html>
     
     <head>
@@ -14,25 +5,38 @@
         <title>
             Saad's Home Page
         </title>
-        <link href="images/weemee_favicon.jpg" rel="shortcut icon" type="image/x-icon"
-        />
-        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link href="images/weemee_favicon.jpg" rel="shortcut icon" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     
     <body>
-        <div id="fb-root">
+        <div id="fb-root" class=" fb_reset">
+            <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+                <div>
+                    <iframe id="fb_xdm_frame_http" name="fb_xdm_frame_http" src="http://static.ak.facebook.com/connect/xd_arbiter.php?version=17#channel=f5ed0d4c4&amp;origin=http%3A%2F%2Fsaa.dfarooq.com&amp;channel_path=%2F%3Ffb_xd_fragment%23xd_sig%3Df1942c11a8%26">
+                    </iframe>
+                    <iframe id="fb_xdm_frame_https" name="fb_xdm_frame_https" src="https://s-static.ak.facebook.com/connect/xd_arbiter.php?version=17#channel=f5ed0d4c4&amp;origin=http%3A%2F%2Fsaa.dfarooq.com&amp;channel_path=%2F%3Ffb_xd_fragment%23xd_sig%3Df1942c11a8%26">
+                    </iframe>
+                </div>
+            </div>
+            <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
+                <div>
+                </div>
+            </div>
         </div>
-        <script>
-            (function(d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s);
-                js.id = id;
-                js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
+        <script id="facebook-jssdk" src="//connect.facebook.net/en_US/all.js#xfbml=1">
         </script>
-        <img class="bg" src="images/bg.jpg" />
+        <script>
+                        (function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <img class="bg" src="bg.jpg">
         <div class="floating">
             <div>
                 <h1>
@@ -41,7 +45,7 @@
                 <h2>
                     Part researcher, part developer... full geek
                 </h2>
-                <hr/>
+                <hr>
                 <p>
                     Graduate researcher in computer science at Tufts University with an emphasis
                     on the development of tools for the advancement of education in developing
@@ -52,7 +56,7 @@
                     <a href="http://www.finchrobot.com/software/finch-dreams">Finch Dreams</a>
                     , a rewrite of the Alice visual programming environment that allows control
                     of the Finch educational robot.
-				</p>
+                </p>
                 <p>
                     Also developed the inaugural Android app for
                     <a href="http://www.noqapps.com">NoQ</a>
@@ -60,31 +64,36 @@
                     the food and restaurant industry
                 </p>
                 <p>
-                    I am currently at the
-                    <a href="http://ceeo.tufts.edu">Center for Engineering Education and Outreach</a>
-                    at Tufts University in Medford, Massachussets, USA where I am a graduate
-                    student working on an online computer supported collaboration platform.
-                    My research interests include computational thinking, imparting education
-                    effectively, real time learning analytics and representational programming.
+                    I am currently at the Center for Engineering Education and Outreach at
+                    Tufts where I am a graduate student working on an online computer supported
+                    collaboration platform. My research interests include computational thinking,
+                    imparting education effectively, real time learning analytics and representational
+                    programming.
                 </p>
                 <hr>
                 <div class="links">
                     <a class="socialicon" href="http://www.facebook.com/unimpeccable" target="_TOP"
                     title="Saad Farooq">
-					<img src="images/facebook_32.png" style="border: 0px;" />
-				</a>
+                    <img src="images/facebook_32.png" style="border: 0px;">
+                </a>
                     <a class="socialicon" href="http://pk.linkedin.com/in/farooqsaad" target="_TOP"
                     title="Saad Farooq">
-					<img src="images/linkedin_32.png" style="border: 0px;" />
-				</a>
+                    <img src="images/linkedin_32.png" style="border: 0px;">
+                </a>
                     <a class="socialicon" href="https://plus.google.com/u/0/104532398960746105637/posts"
                     target="_TOP" title="Saad Farooq">
-					<img src="images/g-plus-icon-32.png" style="border: 0px;" />
-				</a>
+                    <img src="images/g-plus-icon-32.png" style="border: 0px;">
+                </a>
                 </div>
             </div>
-            <div class="fb-like" data-href="http://saa.dfarooq.com" data-send="false"
-            data-width="450" data-show-faces="true" data-colorscheme="dark" data-font="trebuchet ms">
+            <div class="fb-like fb_edge_widget_with_comment fb_iframe_widget" data-href="http://saa.dfarooq.com"
+            data-send="false" data-width="450" data-show-faces="true" data-colorscheme="dark"
+            data-font="trebuchet ms" fb-xfbml-state="rendered">
+                <span style="height: 61px; width: 450px;">
+                    <iframe id="f226d08578" name="fab6379b" scrolling="no" style="border: none; overflow: hidden; height: 61px; width: 450px;"
+                    title="Like this content on Facebook." class="fb_ltr" src="http://www.facebook.com/plugins/like.php?api_key=&amp;locale=en_US&amp;sdk=joey&amp;channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D17%23cb%3Df257021fd8%26origin%3Dhttp%253A%252F%252Fsaa.dfarooq.com%252Ff5ed0d4c4%26domain%3Dsaa.dfarooq.com%26relation%3Dparent.parent&amp;href=http%3A%2F%2Fsaa.dfarooq.com&amp;node_type=link&amp;width=450&amp;font=trebuchet%20ms&amp;layout=standard&amp;colorscheme=dark&amp;show_faces=true&amp;send=false&amp;extended_social_context=false">
+                    </iframe>
+                </span>
             </div>
         </div>
     </body>
